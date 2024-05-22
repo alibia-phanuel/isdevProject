@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "Hello world!",
+    "banerONE": "Banner one"
+  }
+,
+  "Navigation": {
+    "home": "home",
+    "link2": "Jon Easy Free",
+    "link3": "Why Jon Easy?",
+    "link4": "How does it work?",
+    "link5": "Contact"
+  },
+  "Baner": {
+    "title": "Download App,Jon Easy",
+    "content": "Download Jon Easy from PlayStore or AppStores create your account Use Yourself Account",
+    "floteOne": "Accept Custommmer Rode Request",
+    "floteTwo": "Accept Custommmer Error"
+  }
+}

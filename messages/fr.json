@@ -1,0 +1,19 @@
+{
+  "Index": {
+    "title": "bonjour",
+    "banerONE": "Banner un"
+  },
+  "Navigation": {
+    "home": "Accueil",
+    "link2": "Jon Easy Gratuit",
+    "link3": "Pourquoi Jon Easy ?",
+    "link4": "Comment Ça Marche ?",
+    "link5": "Contacter "
+  },
+  "Baner": {
+    "title": "Télécharger l'application Jon Easy",
+    "content": "Téléchargez Jon Easy sur PlayStore ou AppStores Créez votre compte Utilisez votre compte",
+    "floteOne": "Accepter la demande de code client",
+    "floteTwo": "Accepter l'erreur du client"
+  }
+}
