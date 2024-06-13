@@ -1,5 +1,9 @@
 "use client";
 import { motion } from "framer-motion";
+import Inscription from "../../../public/assets/user.png";
+import navigation from "../../../public/assets/navigation.png";
+import settings from "../../../public/assets/settings.png";
+import sec from "../../../public/assets/sec.png";
 import Image from "next/image";
 function SectionOne() {
   return (
@@ -15,7 +19,7 @@ function SectionOne() {
               hidden: { opacity: 0, y: 100 },
               visible: { opacity: 1, y: 0 },
             }}
-            className="text-[50px] max-md:text-[40px] my-10 font-[1000] capitalize"
+            className="font-bold my-[50px] text-[50px] max-sm:text-[30px] capitalize max-md:text-[50px] bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent"
           >
             How Jon Easy works
           </motion.h1>
@@ -40,33 +44,37 @@ function SectionOne() {
             className=" flex flex-col justify-between"
           >
             <div className="group  my-8 mx-5">
-              <div className="flex justify-end">
-                <h1 className="bg-green-100 flex justify-center items-center w-[80px] h-[80px] rounded-lg text-[40px] font-bold text-green-400  transition-all group-hover:text-white group-hover:bg-green-600 ">
-                  1
-                </h1>
-              </div>
               <div className="flex  justify-end">
-                <h2 className="font-bold my-3">Request a trip</h2>
+                <div className="icone  relative w-[70px] h-[70px] flex justify-center items-center  ">
+                  <Image src={Inscription} alt="projetImg" fill></Image>
+                </div>
               </div>
-              <p className="text-right">
-                Choose your pickup and the drop-all <br></br> iconne and the
-                trip type that <br></br>
-                meets your noorh
+              <div className="flex  justify-end max-[600px]:w-[175px]">
+                <h2 className="font-bold my-3 ">Inscription & Connexion</h2>
+              </div>
+              <p className="text-right ">
+                Les utilisateurs peuvent s`inscrire en fournissant leur nom,
+                adresse e-mail et mot de passe, avec vérification par e-mail.{" "}
+                Les utilisateurs existants se connectent avec leurs identifiants
+                pour accéder à l`application, assurant ainsi sécurité et
+                personnalisation.
               </p>
             </div>
             <div className="  my-8 mx-5">
-              <div className=" flex  justify-end">
-                <h1 className="bg-green-600  flex justify-center items-center w-[80px] h-[80px] rounded-lg text-[40px] font-bold text-white ">
-                  3
-                </h1>
+              <div className="flex  justify-end">
+                <div className="icone  relative w-[70px] h-[70px] flex justify-center items-center  ">
+                  <Image src={navigation} alt="projetImg" fill></Image>
+                </div>
               </div>
               <div className="flex  justify-end">
-                <h2 className="font-bold my-3">Request a trip</h2>
+                <h2 className="font-bold my-3">Navigation Intuitive</h2>
               </div>
               <p className="text-right">
-                Choose your pickup and the drop-all <br></br> iconne and the
-                trip type that <br></br>
-                meets your noorh
+                L`interface présente des boutons ou icônes pour les principales
+                fonctionnalités, avec un menu latéral ou un onglet en bas pour
+                naviguer facilement entre le tableau de bord, les notifications,
+                les paramètres, et le profil, permettant une utilisation fluide
+                et rapide.
               </p>
             </div>
           </motion.div>
@@ -94,33 +102,40 @@ function SectionOne() {
             className=" flex flex-col justify-between"
           >
             <div className="group  my-8 mx-5">
-              <div className="flex">
-                <h1 className="bg-green-100 flex justify-center items-center w-[80px] h-[80px] rounded-lg text-[40px] font-bold text-green-400 transition-all group-hover:text-white group-hover:bg-green-600 ">
-                  2
-                </h1>
+              <div className="flex ">
+                <div className="icone  relative w-[70px] h-[70px] flex justify-center items-center  ">
+                  <Image src={settings} alt="projetImg" fill></Image>
+                </div>
               </div>
               <div className="flex">
-                <h2 className="font-bold my-3">Request a trip</h2>
+                <h2 className="font-bold my-3">
+                  Fonctionnalités Personnalisées
+                </h2>
               </div>
-              <p className="">
-                Choose your pickup and the drop-all <br></br> iconne and the
-                trip type that <br></br>
-                meets your noorh
+              <p className=" text-justify">
+                L'application recommande des contenus et services basés sur les
+                interactions précédentes de l'utilisateur. Les utilisateurs
+                peuvent ajuster leurs paramètres pour notifications spécifiques,
+                synchronisation de calendrier, et intégration d'applications
+                tierces, offrant une expérience personnalisée et enrichie.
               </p>
             </div>
             <div className="group  my-8 mx-5">
-              <div className=" flex">
-                <h1 className="bg-green-100 flex justify-center items-center w-[80px] h-[80px] rounded-lg text-[40px] font-bold text-green-400 transition-all group-hover:text-white group-hover:bg-green-600 ">
-                  4
-                </h1>
+              <div className="flex">
+                <div className="icone  relative w-[70px] h-[70px] flex justify-center items-center  ">
+                  <Image src={sec} alt="projetImg" fill></Image>
+                </div>
               </div>
               <div className="flex">
-                <h2 className="font-bold my-3">Request a trip</h2>
+                <h2 className="font-bold my-3">Sécurité & Confidentialité</h2>
               </div>
-              <p className="">
-                Choose your pickup and the drop-all <br></br> iconne and the
-                trip type that <br></br>
-                meets your noorh
+              <p className=" text-justify">
+                Les données des utilisateurs sont protégées par des protocoles
+                de cryptage robustes et des mesures de prévention des accès non
+                autorisés. Les utilisateurs contrôlent leurs informations
+                personnelles et reçoivent des alertes en temps réel pour toute
+                activité suspecte, garantissant la confidentialité et la
+                sécurité.
               </p>
             </div>
           </motion.div>

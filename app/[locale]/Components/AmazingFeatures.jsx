@@ -20,7 +20,7 @@ function AmazingFeatures() {
               hidden: { opacity: 0, x: -50 },
               visible: { opacity: 1, x: 0 },
             }}
-            className="my-[5px] text-gray-600 text-lg max-md:text-[17px] md:w-[45%]"
+            className="my-[5px] text-gray-600 text-lg max-md:text-[17px] md:w-[45%] text-justify"
           >
             <span className="font-bold">Reconnaissance vocale avancée</span> :
             Notre application mobile intègre une reconnaissance vocale utilisant
@@ -40,7 +40,7 @@ function AmazingFeatures() {
               hidden: { opacity: 0, x: 50 },
               visible: { opacity: 1, x: 0 },
             }}
-            className="my-[5px] text-gray-600 text-lg max-md:text-[17px] md:w-[45%]"
+            className="my-[5px] text-gray-600 text-lg max-md:text-[17px] md:w-[45%] text-justify"
           >
             <span className="font-bold">Réalité augmentée interactive </span> :
             L&apos;application propose une réalité augmentée (RA) interactive,

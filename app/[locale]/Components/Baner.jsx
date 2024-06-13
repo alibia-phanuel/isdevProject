@@ -32,7 +32,7 @@ function Baner() {
             </span>{" "}
             {/**to enjoy your day everyday*/}
           </motion.h1>
-          <p className="my-10 text-lg text-gray-600 sm:text-xl max-w-2xl  w-full">
+          <p className="my-10 text-lg text-gray-600 sm:text-xl max-w-2xl  w-full text-justify">
             Download Jon Easy opp from plays crois <br></br> account use your
             car and drive by yourself <br></br>get ride and earn more money
           </p>

@@ -6,8 +6,6 @@ import AmazingFeatures from "./Components/AmazingFeatures";
 import Screenshort from "./Components/Screenshort";
 import WhyJonEasy from "./Components/WhyJonEasy";
 import SectionOne from "./Components/SectionOne";
-import SectionTwoo from "./Components/SectionTwoo";
-import SectionFoor from "./Components/SectionFoor";
 import SectionFive from "./Components/SectionFive";
 import Features from "./Components/Features";
 
@@ -20,6 +18,9 @@ export default function Index() {
       <AmazingFeatures />
       <Screenshort />
       <WhyJonEasy />
+      <SectionOne />
+      <Features />
+      <SectionFive />
     </div>
   );
 }
