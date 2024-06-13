@@ -1,6 +1,5 @@
 "use client";
 import { motion } from "framer-motion";
-
 import localFont from "next/font/local";
 import Image from "next/image";
 import projetc from "../../../public/assets/project.png";
@@ -18,7 +17,6 @@ function Easysteps() {
     <>
       <h1 className="w-full  z-50  items-center mt-[100px] justify-center  text-center bg-red-900 max-[768px]:justify-center text-[50px] max-sm:text-[30px] capitalize max-md:text-[50px]   flex  bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent">
         <span className={myFonts.className}>
-          {" "}
           Easy steps to use <br></br> the services
         </span>
       </h1>

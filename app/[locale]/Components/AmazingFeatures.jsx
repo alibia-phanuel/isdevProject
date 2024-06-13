@@ -1,15 +1,14 @@
 "use client";
 import { motion } from "framer-motion";
-
 function AmazingFeatures() {
   return (
     <div className="flex justify-center items-center mb-[100px]">
-      <div className="flex justify-center items-center mx-4  z-50  ">
-        <div className="container  flex   justify-between gap-4 flex-wrap">
+      <div className="flex justify-center items-center mx-4  z-50 ">
+        <div className="container  flex  justify-between gap-4 flex-wrap">
           <h1 className="font-bold text-[30px] max-md:text-[30px] w-full ">
             <span className="bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent">
               Amazing
-            </span>{" "}
+            </span>
             Features
           </h1>
           <motion.div
@@ -43,7 +42,6 @@ function AmazingFeatures() {
             }}
             className="my-[5px] text-gray-600 text-lg max-md:text-[17px] md:w-[45%]"
           >
-            {" "}
             <span className="font-bold">Réalité augmentée interactive </span> :
             L'application propose une réalité augmentée (RA) interactive,
             superposant des informations numériques sur le monde réel via
