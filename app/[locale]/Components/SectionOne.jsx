@@ -113,11 +113,12 @@ function SectionOne() {
                 </h2>
               </div>
               <p className=" text-justify">
-                L'application recommande des contenus et services basés sur les
-                interactions précédentes de l'utilisateur. Les utilisateurs
-                peuvent ajuster leurs paramètres pour notifications spécifiques,
-                synchronisation de calendrier, et intégration d'applications
-                tierces, offrant une expérience personnalisée et enrichie.
+                L&lsquo;application recommande des contenus et services basés
+                sur les interactions précédentes de l&lsquo;utilisateur. Les
+                utilisateurs peuvent ajuster leurs paramètres pour notifications
+                spécifiques, synchronisation de calendrier, et intégration
+                d&lsquo;applications tierces, offrant une expérience
+                personnalisée et enrichie.
               </p>
             </div>
             <div className="group  my-8 mx-5">

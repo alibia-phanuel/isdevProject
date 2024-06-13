@@ -22,12 +22,12 @@ function SectionFive() {
             <span className="font-bold text-[#1F6DDF]">JON EASY</span>
           </h1>
           <motion.p className="my-5 text-white text-lg max-md:text-[17px] text-justify">
-            Téléchargez notre application pour bénéficier d'une expérience
+            Téléchargez notre application pour bénéficier d`une expérience
             personnalisée et sécurisée qui révolutionnera votre quotidien. Grâce
             à une interface intuitive, vous naviguerez facilement entre les
             différentes fonctionnalités, spécialement conçues pour répondre à
             vos besoins. Que vous souhaitiez recevoir des recommandations sur
-            mesure, synchroniser votre calendrier ou intégrer d'autres
+            mesure, synchroniser votre calendrier ou intégrer d&lsquo;autres
             applications, tout est pensé pour vous simplifier la vie. De plus,
             avec nos protocoles de sécurité avancés, vos données personnelles
             sont protégées à chaque instant. Rejoignez notre communauté et
