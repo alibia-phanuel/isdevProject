@@ -7,7 +7,7 @@ function AmazingFeatures() {
         <div className="container  flex  justify-between gap-4 flex-wrap">
           <h1 className="font-bold text-[30px] max-md:text-[30px] w-full ">
             <span className="bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent">
-              Amazing
+              Amazing {""}
             </span>
             Features
           </h1>

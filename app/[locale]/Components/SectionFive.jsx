@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-
+import iphone from "../../../public/iphone.png";
 function SectionFive() {
   return (
     <div className=" flex justify-center items-center ">
@@ -18,8 +18,7 @@ function SectionFive() {
           className="py-10  w-[600px] max-[768px]:w-full"
         >
           <h1 className=" font-bold text-[30px] max-md:text-[18px] text-white relative">
-            Téléchargez{" "}
-            <span className="font-bold text-[#1F6DDF]">JON EASY</span>
+            Téléchargez JON EASY
           </h1>
           <motion.p className="my-5 text-white text-lg max-md:text-[17px] text-justify">
             Téléchargez notre application pour bénéficier d`une expérience
@@ -40,8 +39,8 @@ function SectionFive() {
           </button>
         </motion.div>
         <div className="container w-[300px] flex max-[768px]:items-center max-[768px]:justify-center gap-4 max-[768px]:w-full">
-          <div className="top-[100px] relative">
-            <Image src="/iphone.png" alt="iphone x" width={200} height={200} />
+          <div className="top-[100px] relative max-sm:top-[0px]">
+            <Image src={iphone} alt="iphone x" width={200} height={200} />
           </div>
           <motion.div
             initial="hidden"
@@ -52,7 +51,7 @@ function SectionFive() {
               hidden: { opacity: 0, y: 100 },
               visible: { opacity: 1, y: 0 },
             }}
-            className="bottom-[150px] max-[768px]:bottom-[0px] relative"
+            className="bottom-[150px]  relative max-sm:bottom-[5px] "
           >
             <Image src="/sectwo.png" alt="iphone x" width={200} height={200} />
           </motion.div>
