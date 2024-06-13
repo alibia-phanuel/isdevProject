@@ -4,10 +4,11 @@ import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import { Inter } from "next/font/google";
 import localFont from "next/font/local";
-const myFont = localFont({
+const myFonts = localFont({
   src: "../../Fonts/Google_Sans_Regular.ttf",
   display: "swap",
 });
+
 import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,9 +24,12 @@ export default async function LocaleLayout({ children, params: { locale } }) {
 
   return (
     <html lang={locale}>
-      <body className={myFont.className}>
+      <body className={myFonts.className}>
         <NextIntlClientProvider messages={messages}>
-          <Header />
+          <div className="main w-full">
+            <div className="gradient w-full"></div>
+          </div>
+
           {children}
           <Footer />
         </NextIntlClientProvider>

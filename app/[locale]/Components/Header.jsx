@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import { MdOutlineMenuOpen } from "react-icons/md";
 import { useTranslations } from "next-intl";
 import ChangeLangButton from "./ChangeLangButton";
 import { useState } from "react";
@@ -11,68 +12,56 @@ export default function Header() {
     ? "max-[768px]:h-[0] max-[768px]:py-0  max-[768px]:transition-all"
     : "max-[768px]:h-[500] max-[768px]:py-4   max-[768px]:transition-all";
   return (
-    <header className="flex justify-center items-center w-full flex-wrap px-4  bg-gradient-to-r from-[#8ff791f1] from-10% via-[#5edc60f1] via-30% to-[#5edc60f1] to-90%  ">
-      <div className="container flex justify-between items-center py-4 gap-4">
-        <div class="">
-          <Image
-            src="/logo.png"
-            alt=""
-            width={50}
-            height={50}
-            className="Home-img-images-brands"
-          />
-        </div>
-        <div className="capitalize relative  max-[768px]:w-full max-[768px]:flex max-[768px]:justify-end rounded">
+    <header className="flex justify-center items-center w-full flex-wrap px-4 shadow-xl z-50  bg-white ">
+      <div className="container flex justify-between items-center py-4 gap-4 ">
+        <Image
+          src="/logoHome.png"
+          alt="logo"
+          width={175}
+          height={45}
+          className="z-40"
+        />
+        <div
+          onClick={() => setBlock(!isblock)}
+          className="capitalize max-[768px]:w-full max-[768px]:flex max-[768px]:justify-end rounded "
+        >
           <div
-            className={`${showMenuResponsive} overflow-hidden max-[768px]:w-full max-[768px]:bg-[#769765] z-30 max-[768px]:absolute max-[768px]:top-[0px] rounded  max-[768px]:flex-col flex gap-8 text-white items-center font-[300]`}
+            className={`${showMenuResponsive}  text-gray-600 lg:text-[15px]  overflow-hidden  max-[768px]:text-white max-[768px]:left-[0px] max-[768px]:bg-gradient-to-r from-green-400 to-green-500 z-[1000] max-[768px]:absolute max-[768px]:top-[83px] rounded  max-[768px]:flex-col max-[768px]:w-full flex gap-8 items-center `}
           >
             <Link
               onClick={() => setBlock(!isblock)}
               href="#accueil"
-              className="font-bold"
+              className="my-5 "
             >
               {t("home")}
             </Link>
-
             <Link
               onClick={() => setBlock(!isblock)}
               href="#JonEasyPro"
-              className="font-bold"
+              className="my-5  "
             >
               {t("link2")}
             </Link>
-
             <Link
               onClick={() => setBlock(!isblock)}
               href="#JonEasyFree"
-              className="font-bold"
+              className="my-5  "
             >
               {t("link3")}
             </Link>
-
             <Link
               onClick={() => setBlock(!isblock)}
               href="#WhyJonEasy"
-              className="font-bold"
+              className="my-5  "
             >
               {t("link4")}
-            </Link>
-
-            <Link
-              onClick={() => setBlock(!isblock)}
-              href="#Contact"
-              className="font-bold"
-            >
-              {t("link5")}
             </Link>
           </div>
           <div
             onClick={() => setBlock(!isblock)}
-            className="min-[770px]:hidden w-[40px]  z-50 flex flex-col h-[40px] m-2 items-center justify-center rounded  text-white p-1 bg-[#7faa69] cursor-pointer"
+            className=" md:hidden   z-50 flex flex-col text-[40px]  rounded-lg m-2 items-center justify-center text-[#505050] p-1  cursor-pointer"
           >
-            <div className="h-1 w-[30px] my-[2px] bg-white"></div>
-            <div className="h-1 w-[30px] my-[2px] bg-white"></div>
-            <div className="h-1 w-[30px] my-[2px] bg-white"></div>
+            <MdOutlineMenuOpen />
           </div>
         </div>
         <ChangeLangButton />

@@ -3,12 +3,14 @@ import OurPartners from "./OurPartners";
 
 function DeferSectionOne() {
   return (
-    <div className="flex justify-center items-center my-6 mx-4 relative max-md:bottom-[300px]">
-      <div className="container flex justify-center items-center flex-col">
-        <Testimonial />
-        <OurPartners />
+    <>
+      <Testimonial />
+      <div className="flex justify-center items-center  mx-4 relative ">
+        <div className="container flex justify-center items-center flex-col">
+          <OurPartners />
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 

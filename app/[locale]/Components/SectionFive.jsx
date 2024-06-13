@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function SectionFive() {
   return (
-    <div className=" flex justify-center items-center">
+    <div className=" flex justify-center items-center z-50">
       <div className="container  justify-between items-center  my-[100px] flex-wrap px-10 overflow-hidden text-white rounded-lg  flex bg-gradient-to-r from-[#8ff791f1] from-10% via-[#5edc60f1] via-30% to-[#5edc60f1] to-90%">
         <motion.div
           initial="hidden"
