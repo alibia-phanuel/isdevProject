@@ -92,9 +92,10 @@ function Easysteps() {
                   </div>
                   <div className="my-5 text-lg text-gray-600  max-w-2xl max-[500px]:text-sm">
                     Transformez vos données en informations précieuses grâce à
-                    nos outils d'analyse avancés. Visualisez les performances,
-                    identifiez les tendances et prenez des décisions éclairées
-                    pour piloter votre activité vers le succès.
+                    nos outils d&apos;analyse avancés. Visualisez les
+                    performances, identifiez les tendances et prenez des
+                    décisions éclairées pour piloter votre activité vers le
+                    succès.
                   </div>
                 </div>
               </div>
@@ -109,10 +110,10 @@ function Easysteps() {
                   </div>
                   <div className="my-5 text-lg text-gray-600  max-w-2xl max-[500px]:text-sm">
                     Nous prenons la sécurité de vos données au sérieux. Profitez
-                    d'un environnement sécurisé avec des protocoles de cryptage
-                    de pointe et des sauvegardes régulières pour assurer la
-                    confidentialité et l'intégrité de vos informations
-                    sensibles.
+                    d&apos;un environnement sécurisé avec des protocoles de
+                    cryptage de pointe et des sauvegardes régulières pour
+                    assurer la confidentialité et l&apos;intégrité de vos
+                    informations sensibles.
                   </div>
                 </div>
               </div>

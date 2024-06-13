@@ -24,10 +24,10 @@ function AmazingFeatures() {
           >
             <span className="font-bold">Reconnaissance vocale avancée</span> :
             Notre application mobile intègre une reconnaissance vocale utilisant
-            l'intelligence artificielle, permettant de comprendre et exécuter
-            des commandes complexes dans plusieurs langues. Vous pouvez dicter
-            des messages, planifier des rendez-vous, ou rechercher des
-            informations simplement en parlant à l'application, rendant son
+            l&apos;intelligence artificielle, permettant de comprendre et
+            exécuter des commandes complexes dans plusieurs langues. Vous pouvez
+            dicter des messages, planifier des rendez-vous, ou rechercher des
+            informations simplement en parlant à l&apos;application, rendant son
             utilisation rapide et accessible, notamment pour les personnes ayant
             des limitations physiques.
           </motion.div>
@@ -43,13 +43,14 @@ function AmazingFeatures() {
             className="my-[5px] text-gray-600 text-lg max-md:text-[17px] md:w-[45%]"
           >
             <span className="font-bold">Réalité augmentée interactive </span> :
-            L'application propose une réalité augmentée (RA) interactive,
+            L&apos;application propose une réalité augmentée (RA) interactive,
             superposant des informations numériques sur le monde réel via
-            l'appareil photo de votre téléphone. Vous pouvez obtenir des
+            l&apos;appareil photo de votre téléphone. Vous pouvez obtenir des
             indications de navigation en temps réel, explorer des objets 3D pour
-            l'apprentissage, ou jouer à des jeux immersifs. Par exemple, en
+            l&apos;apprentissage, ou jouer à des jeux immersifs. Par exemple, en
             pointant votre téléphone vers un monument, des faits historiques
-            apparaissent à l'écran, enrichissant votre expérience quotidienne.
+            apparaissent à l&apos;écran, enrichissant votre expérience
+            quotidienne.
           </motion.div>
         </div>
       </div>
