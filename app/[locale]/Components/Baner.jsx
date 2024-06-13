@@ -12,7 +12,7 @@ import { motion } from "framer-motion";
 function Baner() {
   //   const t = useTranslations("Index");
   return (
-    <div className="flex justify-center items-center mx-4 ">
+    <div id="now" className="flex justify-center items-center mx-4 ">
       <div className="container h-full  flex my-[100px]  max-[770px]:flex-col-reverse  baner max-[1137px]:justify-center  ">
         <motion.div
           initial="hidden"

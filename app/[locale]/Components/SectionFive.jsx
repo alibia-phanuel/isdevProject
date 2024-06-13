@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import iphone from "../../../public/iphone.png";
+import Link from "next/link";
 function SectionFive() {
   return (
     <div className=" flex justify-center items-center ">
@@ -34,9 +35,11 @@ function SectionFive() {
             de gérer vos tâches et vos loisirs. Téléchargez dès maintenant pour
             une expérience inégalée !
           </motion.p>
-          <button className="bg-[#292828] p-3 rounded-lg text-white text-lg max-md:text-[17px]">
-            Téléchargez maintenant
-          </button>
+          <Link href="#now">
+            <button className="bg-[#292828] p-3 rounded-lg text-white text-lg max-md:text-[17px]">
+              Téléchargez maintenant
+            </button>
+          </Link>
         </motion.div>
         <div className="container w-[300px] flex max-[768px]:items-center max-[768px]:justify-center gap-4 max-[768px]:w-full">
           <div className="top-[100px] relative max-sm:top-[0px]">
