@@ -29,7 +29,7 @@ export default async function LocaleLayout({ children, params: { locale } }) {
           <div className="main w-full">
             <div className="gradient w-full"></div>
           </div>
-
+          <Header />
           {children}
           <Footer />
         </NextIntlClientProvider>
