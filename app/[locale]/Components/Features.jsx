@@ -25,7 +25,7 @@ function Features() {
             Notre application offre des outils puissants et intuitifs pour
             répondre à tous vos besoins, que ce soit <br />
             pour une sécurité renforcée, une communication instantanée, ou un
-            accès facile à l'information. <br />
+            accès facile à l&lsquo;information. <br />
             Explorez ci-dessous toutes les fonctionnalités qui rendent notre
             application unique et indispensable.
           </p>
@@ -48,9 +48,9 @@ function Features() {
               </div>
               <div className="my-4 font-bold">Mode Hors-Ligne</div>
               <div>
-                Permet aux utilisateurs d'accéder à certaines fonctionnalités de
-                l'application même sans connexion Internet, en sauvegardant les
-                données localement.
+                Permet aux utilisateurs d&lsquo;accéder à certaines
+                fonctionnalités de l&lsquo;application même sans connexion
+                Internet, en sauvegardant les données localement.
               </div>
             </motion.div>
 
@@ -137,10 +137,10 @@ function Features() {
                 Intégration avec des Services Externes
               </div>
               <div>
-                Permet de connecter et d'intégrer l'application avec d'autres
-                services et plateformes populaires comme Google Drive, Orange
-                money, et moby Money, facilitant le partage et la gestion de vos
-                données.
+                Permet de connecter et d&lsquo;intégrer l&lsquo;application avec
+                d&lsquo;autres services et plateformes populaires comme Google
+                Drive, Orange money, et moby Money, facilitant le partage et la
+                gestion de vos données.
               </div>
             </motion.div>
 
